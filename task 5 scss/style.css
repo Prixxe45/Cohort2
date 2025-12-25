@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #f0f0f0;
+  gap: 10px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-color: deepskyblue;
+  border: 2px solid black;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 2;
+  transition: flex-grow 0.3s ease-in-out;
+}
+main section:nth-child(1) {
+  background-image: url(https://i.pinimg.com/736x/f3/9a/75/f39a75ddbf90f70917a0af375d5cce53.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(https://i.pinimg.com/736x/70/ba/33/70ba337165c9603c8a2e48894fef6a8f.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(https://i.pinimg.com/originals/2c/69/4d/2c694d6cea523f2405bd8aae91162f69.png);
+}
+main section:nth-child(4) {
+  background-image: url(https://i.pinimg.com/1200x/91/5b/70/915b703f3a29e18d0d294e06f4396128.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(https://i.pinimg.com/1200x/cc/c6/26/ccc626d222d1cf687a25047167742f84.jpg);
+}/*# sourceMappingURL=style.css.map */

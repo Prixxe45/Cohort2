@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+    color: rgb(0, 0, 0);
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  padding: 20px 200px;
+  gap: 20px;
+  
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 1fr 1fr 200px 1fr;
+  grid-template-areas: "a b c d"
+                       "a e e d"
+                       "f e e g"
+                       "f h i i";
+ 
+
+}
+.item-1{
+  background-color: #FFDDDC;
+  grid-area: a;
+  border-radius: 30px;
+  color: white;
+  background-image: url(https://i.pinimg.com/736x/cd/01/6c/cd016cb360fd8d4bb8b5b5a74d707a3d.jpg);
+  background-size:cover ;
+}
+
+.item-2{
+  background-color: #FFF4F4;
+    grid-area: b;
+      background-image: url(https://i.pinimg.com/1200x/06/96/cc/0696cc1063bc7dee6b84f0f631a0195b.jpg);
+        background-position: center;
+        background-size: cover;
+}
+.item-3{
+  background-color: dodgerblue;
+    grid-area: c;
+      background-image: url(https://i.pinimg.com/1200x/ee/5e/86/ee5e866eaae59ebd6a22defc276d3f67.jpg);
+        background-position: center;
+        background-size: cover;
+}
+.item-4 {
+background-color: tomato;
+  grid-area: d;
+  background-image: url(https://i.pinimg.com/736x/1a/6f/f2/1a6ff2dbbb46e655e3ef489d405dfc0b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-5 {
+background-color: royalblue;
+  grid-area: e;
+  background-image: url(https://i.pinimg.com/736x/da/e6/41/dae641d4606f32f2395b0ca472fc8943.jpg);
+    background-position: 20px -900px;
+    background-size: cover;
+}
+.item-6 {
+background-color: greenyellow;
+  grid-area: f;
+  background-image: url(https://i.pinimg.com/1200x/17/29/58/1729587b3530cb9c1d0d5390a1efcbe8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-7 {
+background-color: hotpink;
+  grid-area: g;
+  background-image: url(https://i.pinimg.com/736x/53/0f/36/530f36f2941322cd01850882e8c42be0.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-8 {
+background-color: palegoldenrod;
+  grid-area: h;
+  background-image: url(https://i.pinimg.com/736x/54/d1/a5/54d1a5d4dd58386294e62ba12972d955.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-9 {
+background-color: lightcoral;
+  grid-area: i;
+  background-image: url(https://i.pinimg.com/736x/7d/2a/33/7d2a33362400ea5b6df63e74d654469a.jpg);
+    background-position: center;
+    background-size: cover;
+}
