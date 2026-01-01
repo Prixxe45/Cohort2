@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  height: 600px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9d9393;
+  border-radius: 10px;
+}
+img{
+  height: 500px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#like{
+  position: absolute;
+  font-size: 90px;
+  color: red;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) ;
+  scale: 0;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(.17, .67, .74, 1.65);
+}
